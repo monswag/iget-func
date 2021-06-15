@@ -5,8 +5,12 @@
 A Netlify Function practice to fetch link of Instagram post.
 
 Intergate with [Scrip7/simple-instagram-api](https://github.com/Scrip7/simple-instagram-api.git), a little and easy api.
+
+You can deploy this project to your netlify functions with:
 ```
-You can deploy this project to your netlify functions with
-`netlify deploy --prod`,
-and call with `/api/p/{shortcode}`
+netlify deploy --prod
+```
+and call with
+```
+/api/p/{shortcode}
 ```
